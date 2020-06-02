@@ -1,0 +1,51 @@
+body {
+	padding: 20px;
+}
+
+
+
+h2 {
+	color: blue;
+	text-align: center;
+	border: 2px line;
+}
+
+#perImg {
+	width: 	210px;
+	padding: 15px;
+	magrin: 20px;
+}
+		
+.perInfo {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 70%;			
+}
+
+@media (min-width: 757px) {
+	table {
+		width: 70%;
+	}
+	
+}
+@media (max-width: 756px) {
+	table {
+		width: 100%;
+	}
+}
+td {
+	border: 1px solid black;
+	text-align: center;
+	padding: 7px;
+}
+
+ul > li {
+	font-style: italic;
+}
+
